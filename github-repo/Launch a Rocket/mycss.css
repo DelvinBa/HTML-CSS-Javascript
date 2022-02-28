@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Syne+Tactile&display=swap');
+
+  body{
+    
+    background-color: black;
+    overflow: hidden;
+}
+.control-panel{
+    height: 40%;
+    width: 63vh;
+    background-image: linear-gradient(blueviolet, mediumvioletred);
+    display: flex;
+    border-radius: 15px;
+    flex-flow: column;
+    left: 122vh;
+    position: absolute;
+    top: 60vh;
+
+}
+.control-panel-inner{
+
+}
+.space{
+    background-image: url("space.png");
+    height: 100vh;
+    width: 75%;
+    margin: auto;
+}
+.check-buttons{
+    display: flex;
+justify-content: space-between;
+    left: 92px;
+    position: absolute;
+    top: 40px;
+}
+input[type=checkbox]{
+    width: 25px;
+    height: 25px;
+}
+.levers{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    flex-flow: row wrap;
+    align-content: center;
+    position: absolute;
+    top: 100px;
+    right: -10px;
+}
+input[type=range] {
+    width: 15%;
+    transform:rotate(-90deg);
+}
+#ok{
+    position: absolute;
+    right: 80px;
+    width: 80px;
+    background-color: lawngreen;
+    height: 27px;
+}
+#pw{
+    left: 80px;
+    width: 120px;
+    position: absolute;
+    border-color: lawngreen;
+    border-style: solid;
+    border-width: thick;
+    color: blueviolet;
+}
+#launch{
+    position: absolute;
+    bottom: 15px;
+    left: 152px;
+    background-color: red;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+
+}
+
+.planet-area {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.planet {
+    height: 50vh;
+    left: -5vh;
+    position: absolute;
+    top: 60vh;
+}
+
+#rocket {
+    height: 15vh;
+    left: 20vh;
+    position: absolute;
+    top:75vh;
+    transform: rotate(30deg);
+}

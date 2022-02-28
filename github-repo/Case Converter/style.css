@@ -1,0 +1,39 @@
+.title{
+    font-size: 40px;
+
+}
+.buttons{
+    width: 20cm;
+    display: flex;
+    margin: 0 .5em 0 .5em;
+}
+
+#text{
+    width: 25cm;
+    height: 8cm;
+}
+.case{
+    margin: 0.5em 0.5em;
+    height: 30px;
+}
+#upper-case{
+    order: 0;
+    background-color: aqua;
+
+}
+#lower-case{
+    order: 1;
+    background-color: aqua;
+}
+#proper-case{
+    order: 2;
+    background-color: aqua;
+}
+#sentence-case{
+    order: 3;
+    background-color: aqua;
+}
+#save-text-file{
+    order: 4;
+    background-color: coral;
+}

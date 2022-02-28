@@ -1,0 +1,63 @@
+body{
+
+    background-image: linear-gradient(hotpink, cornflowerblue);
+
+}
+.container{
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+kbd{
+    display: inline-block;
+    border-style: inset;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.black-keys kbd{
+    background: black;
+    width: 40px;
+    height: 90px;
+    border-radius: 6px;
+    line-height: 120px;
+    color: white;
+    bottom: -0.5cm;
+
+}
+.white-keys kbd{
+    background: white;
+    width: 50px;
+    height: 150px;
+    border-radius: 10px;
+    line-height: 250px;
+    margin: -2px;
+}
+.black-keys{
+    position:relative;
+
+}
+#W{
+    position: absolute;
+    right: 300px;
+}
+#E{
+    position: absolute;
+    right: 245px;
+}
+#T{
+    position: absolute;
+    right: 138px;
+}
+#Y{
+    position: absolute;
+    right: 84px;
+}
+#U{
+    position: absolute;
+    right: 30px;
+}
+
